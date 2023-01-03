@@ -292,6 +292,7 @@
 		power-domains = <&power RK3568_PD_PIPE>;
 		resets = <&cru SRST_USB3OTG0>;
 		snps,dis_u2_susphy_quirk;
+                snps,xhci-trb-ent-quirk;
 		status = "disabled";
 	};
 
@@ -310,6 +311,7 @@
 		power-domains = <&power RK3568_PD_PIPE>;
 		resets = <&cru SRST_USB3OTG1>;
 		snps,dis_u2_susphy_quirk;
+                snps,xhci-trb-ent-quirk;
 		status = "disabled";
 	};
 
